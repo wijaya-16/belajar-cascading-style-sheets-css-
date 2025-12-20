@@ -1,0 +1,19 @@
+/* selector universal : akan mengatur semua element tanpa terkecuali. */
+* {
+  background-color: crimson;
+}
+
+/* selector-element secara umum contoh: H1 */
+/* h1 {
+  background-color: aliceblue;
+  color: blue;
+} */
+
+/* selector dengan grupping. */
+
+h1,
+h2,
+h3 {
+  background-color: aliceblue;
+  color: blue;
+}
