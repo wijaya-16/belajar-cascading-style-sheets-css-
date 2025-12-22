@@ -1,0 +1,90 @@
+header h1 {
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.news h2 {
+  background-color: beige;
+}
+
+.news-content p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+section h4 {
+  background-color: crimson;
+  padding: 10px;
+  font-size: large;
+  font-weight: 500;
+  color: cornsilk;
+}
+
+section p {
+  background-color: coral;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-style: oblique;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+section form {
+  padding: 30px;
+  border: 3px double red;
+  width: 300px;
+  flex-direction: column;
+  gap: 50px;
+}
+
+section form .pembungkus-input {
+  display: flex;
+  flex-direction: column;
+}
+
+section form .satu {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+section form .dua {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+section form .tiga {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* section form div {
+  display: flex;
+  flex-direction: column;
+} */
+
+section form div input {
+  width: 300px;
+  height: 40px;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.btn1 {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
